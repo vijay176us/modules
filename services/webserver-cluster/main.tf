@@ -23,10 +23,10 @@ provider "aws" {
   region = "us-east-2"
 }
 
-module "webserver_cluster" {
-  source = "/home/vk/terraform-vk/intro-to-Terraform/stage/modules/services/webserver-cluster"
-  cluster_name = "webservers-stage"
-}
+# module "webserver_cluster" {
+#   source = "/home/vk/terraform-vk/intro-to-Terraform/stage/modules/services/webserver-cluster"
+#   cluster_name = "webservers-stage"
+# }
 
 # ---------------------------------------------------------------------------------------------------------------------
 # GET THE LIST OF AVAILABILITY ZONES IN THE CURRENT REGION
